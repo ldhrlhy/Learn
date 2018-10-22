@@ -11,6 +11,7 @@ public class MergeOrder {
 
     }
     private static void mergeSort(int[] a,int size){
+
         mergeSortInternally(a,0,size-1);
     }
     private static void mergeSortInternally(int []a,int p,int r){
